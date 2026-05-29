@@ -76,6 +76,13 @@ cd C:\Agent\strange && python -c "import pandas; import numpy; import matplotlib
 git add -A && git commit -m "analysis: [분석명] [날짜]" && git push
 ```
 
+## 데이터 정확성 원칙 (MANDATORY — 모든 에이전트 공통)
+외부 제출용 문서(제안서, 보고서, 강의자료 등)에 수치/통계를 사용할 경우:
+- 출처 확인 가능한 수치만 확정 표현으로 서술
+- 미확인 수치는 *(추정)* 또는 *(출처 필요)* 마킹 필수
+- 수치 검증이 필요하면 Strange 에이전트에게 먼저 위임
+- 절대 출처 없이 그럴듯한 수치를 사실처럼 서술하지 않는다
+
 ## 발화 의도 감지 (MANDATORY)
 메시지를 받으면 먼저 작업 요청인지 대화인지 판단한다.
 
